@@ -1,0 +1,44 @@
+---
+title: "Tate Jacobson"
+image: images/headshot2.jpg
+about:
+    template: trestles
+    image-shape: rounded
+    links: 
+      - text: "{{< iconify fa6-brands google-scholar >}} Google Scholar"
+        url: "https://scholar.google.com/citations?user=Aduyj38AAAAJ&hl=en"
+      - text: GitHub
+        icon: github
+        url: "https://github.com/TateJacobson"
+      - text: "{{< fa envelope >}} Email"
+        url: "mailto:tate.jacobson@oregonstate.edu"
+---
+
+## About me  
+I am an Assistant Professor in the [Department of Statistics](https://stat.oregonstate.edu/) at Oregon State University.
+I completed my PhD in Statistics at the University of Minnesota where I worked with Professor [Hui Zou](https://sites.google.com/view/huizoustat/bio).
+My research centers on developing new methods for analyzing high-dimensional data, though I am also interested in machine learning more broadly.
+
+::: columns
+::: {.column width="40%"}
+### Research Interests  
+-   High-dimensional estimation and inference
+-   Nonparametric and semi-parametric methods
+-   Missing and censored data
+-   Dimension reduction
+-   Machine learning
+:::
+::: {.column width=10%}
+
+:::
+::: {.column width="40%" style="line-height:1"}
+### Education
+
+**PhD in Statistics, 2023**  
+[University of Minnesota, Minneapolis, MN]{style="color: grey;"}
+  
+**BA in Mathematics, 2016**  
+[Whitman College, Walla Walla, WA]{style="color: grey;"}
+
+:::
+:::

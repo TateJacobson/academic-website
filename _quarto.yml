@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Tate Jacobson"
+  open-graph: true
+  navbar:
+    logo: logo.png
+    title: false
+    pinned: true
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+
+format:
+  html:
+    grid:
+      body-width: 1400px
+    theme: 
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
+    css: custom.css

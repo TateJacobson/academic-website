@@ -1,0 +1,10 @@
+---
+title: "Teaching"
+---
+### Oregon State University
+- ST 413/513: Methods of Data Analysis III
+
+### University of Minnesota
+- STAT 3701: Introduction to Statistical Computing
+- STAT 3011/5021: Introduction to Statistical Analysis/Statistical Analysis
+

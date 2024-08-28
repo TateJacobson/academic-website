@@ -1,0 +1,43 @@
+/*-- navbar --*/
+
+.navbar {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  font-size: 1.5em;
+}
+
+#quarto-header {
+  border-bottom: 1px solid black;
+}
+
+.navbar-logo {
+  max-height: 100px;
+  width: auto;
+  align-items: center;
+}
+
+.quarto-color-scheme-toggle {
+  display: flex; 
+  justify-content: right; 
+  align-items: center; 
+}
+
+.quarto-color-scheme-toggle > i {
+  display: inline-block; 
+  width: 20px; 
+  height: 20px; 
+  background-image: url(assets/moon-regular.svg); 
+  background-size: fill; 
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999px; 
+  transition: opacity 0.5s ease;
+}
+
+.navbar #quarto-search {
+  margin-left: unset;
+}
+
+.navbar .quarto-navbar-tools {
+  margin-left: auto;
+}
