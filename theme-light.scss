@@ -2,3 +2,15 @@
 // Base document colors
 $navbar-fg: #D73F09;
 $navbar-hl: black;
+
+.quarto-color-scheme-toggle > i {
+    display: inline-block; 
+    width: 40px; 
+    height: 20px; 
+    background-image: url(assets/moon-regular.svg); 
+    background-size: fill; 
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px; 
+    transition: opacity 0.5s ease;
+}

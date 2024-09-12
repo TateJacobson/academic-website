@@ -17,7 +17,7 @@ about:
 ## About me  
 I am an Assistant Professor in the [Department of Statistics](https://stat.oregonstate.edu/) at Oregon State University.
 I completed my PhD in Statistics at the University of Minnesota where I worked with Professor [Hui Zou](https://sites.google.com/view/huizoustat/bio).
-My research centers on developing new methods for analyzing high-dimensional data, though I am also interested in machine learning more broadly.
+My research is mainly focused on developing new methods for analyzing high-dimensional data, though I am also interested in machine learning more broadly.
 
 ::: columns
 ::: {.column width="40%"}

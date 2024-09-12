@@ -19,19 +19,7 @@
 .quarto-color-scheme-toggle {
   display: flex; 
   justify-content: right; 
-  align-items: center; 
-}
-
-.quarto-color-scheme-toggle > i {
-  display: inline-block; 
-  width: 20px; 
-  height: 20px; 
-  background-image: url(assets/moon-regular.svg); 
-  background-size: fill; 
-  background-repeat: no-repeat;
-  background-position: center;
-  text-indent: -9999px; 
-  transition: opacity 0.5s ease;
+  align-items: center;
 }
 
 .navbar #quarto-search {

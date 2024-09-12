@@ -9,3 +9,4 @@ _extensions/*
 images/*
 index.ipynb
 *.png
+/.quarto/
