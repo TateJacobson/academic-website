@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Oregon State University\n\nST 413/513: Methods of Data Analysis III\n\n\n\nUniversity of Minnesota\n\nSTAT 3701: Introduction to Statistical Computing\nSTAT 3011/5021: Introduction to Statistical Analysis/Statistical Analysis"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tate Jacobson",
+    "section": "",
+    "text": "I am an Assistant Professor in the Department of Statistics at Oregon State University. I completed my PhD in Statistics at the University of Minnesota where I worked with Professor Hui Zou. My research is mainly focused on developing new methods for analyzing high-dimensional data, though I am also interested in machine learning more broadly.\n\n\n\n\n\nHigh-dimensional estimation and inference\nNonparametric and semi-parametric methods\nMissing and censored data\nDimension reduction\nMachine learning\n\n\n\n\n\n\nPhD in Statistics, 2023\nUniversity of Minnesota, Minneapolis, MN\nBA in Mathematics, 2016\nWhitman College, Walla Walla, WA"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Tate Jacobson",
+    "section": "",
+    "text": "I am an Assistant Professor in the Department of Statistics at Oregon State University. I completed my PhD in Statistics at the University of Minnesota where I worked with Professor Hui Zou. My research is mainly focused on developing new methods for analyzing high-dimensional data, though I am also interested in machine learning more broadly.\n\n\n\n\n\nHigh-dimensional estimation and inference\nNonparametric and semi-parametric methods\nMissing and censored data\nDimension reduction\nMachine learning\n\n\n\n\n\n\nPhD in Statistics, 2023\nUniversity of Minnesota, Minneapolis, MN\nBA in Mathematics, 2016\nWhitman College, Walla Walla, WA"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Refereed Publications\n\nJacobson, T. and Zou, H. (accepted), “Linear Hypothesis Testing for High Dimensional Tobit Models,” Statistica Sinica, DOI: 10.5705/ss.202023.0118\nJacobson, T. and Zou, H. (2023), “High-Dimensional Censored Regression via the Penalized Tobit Likelihood,” Journal of Business and Economic Statistics, DOI: 10.1080/07350015.2023.2182309\nAnderson, L. and Jacobson, T. (2023), “Providing the choice of in-person or video-conference attendance in a Clinical Physiology course may harm learning outcomes for the entire cohort,” Advances in Physiology Education, DOI: 10.1152/advan.00160.2022\nJacobson, T. & Zou, H. (2021), “Do Predictor Envelopes Really Reduce Dimension?” Journal of Data Science, 4, 528-541. DOI: 10.6339/21-JDS1017\n\n\n\nPreprints\n\nJacobson, T., “Strong Oracle Guarantees for Partial Penalized Tests of High Dimensional Generalized Linear Models,” arXiv: 2408.00270\n\n\n\nSoftware\n\nJacobson T. (2022). tobitnet: Penalized Tobit Regression. R package version 1.0.0, https://github.com/TateJacobson/tobitnet\nJacobson T. (2023). TobitTest: Linear Hypothesis Testing for High Dimensional Tobit Models. R package version 1.0, https://github.com/TateJacobson/TobitTest"
+  }
+]

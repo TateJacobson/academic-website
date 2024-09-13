@@ -7,11 +7,3 @@ title: "Teaching"
 ### University of Minnesota
 - STAT 3701: Introduction to Statistical Computing
 - STAT 3011/5021: Introduction to Statistical Analysis/Statistical Analysis
-
-### Review resources for students 
-- [Seeing Theory](https://seeing-theory.brown.edu/) - A website from Brown University that visualizes some of the key ideas from statistics in an interesting way.
-- [MIT OCW](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/) - A free *Introduction to Probability and Statistics* course from MIT.
-- YouTube playlists
-  + [Statistics Fundamentals](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9)
-  + [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
-  + [Logistic regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe)

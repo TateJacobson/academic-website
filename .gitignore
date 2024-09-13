@@ -2,11 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
-.quarto/
 *.Rproj
 _site/*
 _extensions/*
 images/*
-index.ipynb
-*.png
+logo.png
 /.quarto/
