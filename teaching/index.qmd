@@ -5,7 +5,7 @@ title: "Teaching"
 - [ST 413/513: Methods of Data Analysis III](st513.html)
 - ST 599: Advanced Regression Methods for Big and Complex Data
 - ST 525: Applied Survival Analysis
-- ST 563: Theory of Statistics III
+- [ST 563: Theory of Statistics III](st563.html)
 
 ### University of Minnesota
 - STAT 3701: Introduction to Statistical Computing
