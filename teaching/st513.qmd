@@ -1,0 +1,18 @@
+---
+title: "ST 513, Spring 2026"
+listing:
+  - id: lectures
+    contents: "st513/lecture/*"
+    type: table
+  - id: labs
+    contents: "st513/lab/*"
+    type: table
+---
+
+## Lecture handouts
+:::{#lectures}
+:::
+
+## Lab materials
+:::{#labs}
+:::

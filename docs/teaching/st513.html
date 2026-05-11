@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching – Tate Jacobson</title>
+<title>ST 513 – Tate Jacobson</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,10 +73,96 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-lectures .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-filename-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-lectures'] = new List('listing-lectures', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-labs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-filename-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-labs'] = new List('listing-labs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../custom.css">
-<meta property="og:title" content="Teaching – Tate Jacobson">
+<meta property="og:title" content="ST 513 – Tate Jacobson">
 <meta property="og:site_name" content="Tate Jacobson">
 </head>
 
@@ -267,7 +355,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../teaching/index.html" aria-current="page"> 
+    <a class="nav-link" href="../teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -289,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title">ST 513</h1>
 </div>
 
 
@@ -306,20 +394,188 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="oregon-state-university" class="level3">
-<h3 class="anchored" data-anchor-id="oregon-state-university">Oregon State University</h3>
-<ul>
-<li><a href="../teaching/st513.html">ST 413/513: Methods of Data Analysis III</a></li>
-<li>ST 599: Advanced Regression Methods for Big and Complex Data</li>
-<li>ST 525: Applied Survival Analysis</li>
-</ul>
+<section id="lecture-handouts" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-handouts">Lecture handouts</h2>
+<div id="listing-lectures" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-lectures-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-lectures'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-filename-sort" data-direction="asc">
+        File Name
+      </option>
+      <option value="listing-file-modified-sort" data-direction="asc">
+        Modified - Oldest
+      </option>
+      <option value="listing-file-modified-sort" data-direction="desc">
+        Modified - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-filename-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">File Name</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-file-modified-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Modified</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1778082545030" data-listing-filename-sort="13. Logistic Regression with a Binomial Response Handout.pdf">
+<td>
+<a href="../teaching\st513\lecture\13. Logistic Regression with a Binomial Response Handout.pdf" class="filename listing-filename">13. Logistic Regression with a Binomial Response Handout.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">5/6/26, 8:49:05 AM</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1778091156685" data-listing-filename-sort="14. Inference in Binomial Logistic Regression Handout.pdf">
+<td>
+<a href="../teaching\st513\lecture\14. Inference in Binomial Logistic Regression Handout.pdf" class="filename listing-filename">14. Inference in Binomial Logistic Regression Handout.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">5/6/26, 11:12:36 AM</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-file-modified-sort="1778474997968" data-listing-filename-sort="15. Extra Binomial Variation and Extensions Handout.pdf">
+<td>
+<a href="../teaching\st513\lecture\15. Extra Binomial Variation and Extensions Handout.pdf" class="filename listing-filename">15. Extra Binomial Variation and Extensions Handout.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">5/10/26, 9:49:57 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-file-modified-sort="1778475399945" data-listing-filename-sort="16. Poisson Regression Handout.pdf">
+<td>
+<a href="../teaching\st513\lecture\16. Poisson Regression Handout.pdf" class="filename listing-filename">16. Poisson Regression Handout.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">5/10/26, 9:56:39 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-file-modified-sort="1778091305763" data-listing-filename-sort="BinomialLogisticRegression.R">
+<td>
+<a href="../teaching\st513\lecture\BinomialLogisticRegression.R" class="filename listing-filename">BinomialLogisticRegression.R</a>
+</td>
+<td>
+<span class="listing-file-modified">5/6/26, 11:15:05 AM</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-file-modified-sort="1715627858620" data-listing-filename-sort="BinomialQuasiLikelihood.R">
+<td>
+<a href="../teaching\st513\lecture\BinomialQuasiLikelihood.R" class="filename listing-filename">BinomialQuasiLikelihood.R</a>
+</td>
+<td>
+<span class="listing-file-modified">5/13/24, 12:17:38 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-file-modified-sort="1746730382270" data-listing-filename-sort="InferenceForBinomialLogisticRegression.R">
+<td>
+<a href="../teaching\st513\lecture\InferenceForBinomialLogisticRegression.R" class="filename listing-filename">InferenceForBinomialLogisticRegression.R</a>
+</td>
+<td>
+<span class="listing-file-modified">5/8/25, 11:53:02 AM</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-file-modified-sort="1747672708879" data-listing-filename-sort="PoissonRegression.R">
+<td>
+<a href="../teaching\st513\lecture\PoissonRegression.R" class="filename listing-filename">PoissonRegression.R</a>
+</td>
+<td>
+<span class="listing-file-modified">5/19/25, 9:38:28 AM</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
-<section id="university-of-minnesota" class="level3">
-<h3 class="anchored" data-anchor-id="university-of-minnesota">University of Minnesota</h3>
-<ul>
-<li>STAT 3701: Introduction to Statistical Computing</li>
-<li>STAT 3011/5021: Introduction to Statistical Analysis/Statistical Analysis</li>
-</ul>
+<section id="lab-materials" class="level2">
+<h2 class="anchored" data-anchor-id="lab-materials">Lab materials</h2>
+<div id="listing-labs" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-labs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-labs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-filename-sort" data-direction="asc">
+        File Name
+      </option>
+      <option value="listing-file-modified-sort" data-direction="asc">
+        Modified - Oldest
+      </option>
+      <option value="listing-file-modified-sort" data-direction="desc">
+        Modified - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-filename-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">File Name</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-file-modified-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Modified</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1746976750603" data-listing-filename-sort="Lab-7.pdf">
+<td>
+<a href="../teaching\st513\lab\Lab-7.pdf" class="filename listing-filename">Lab-7.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">5/11/25, 8:19:10 AM</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 </section>
