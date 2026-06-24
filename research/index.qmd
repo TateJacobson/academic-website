@@ -3,19 +3,18 @@ title: "Research"
 ---
 
 ### Refereed Publications 
-- **Jacobson, T.** (2025), “Strong Oracle Guarantees for Partial Penalized Tests of High Dimensional Generalized Linear Models,” *Journal of the Royal Statistical Society, Series B*, DOI: [10.1093/jrsssb/qkaf010](https://doi.org/10.1093/jrsssb/qkaf010).
-- **Jacobson, T.** and Zou, H. (2025), “Linear Hypothesis Testing for High Dimensional Tobit Models,” *Statistica Sinica*, DOI: [10.5705/ss.202023.0118](https://doi.org/10.5705/ss.202023.0118)
-- **Jacobson, T.** Ding, J., and Zou, H. (2024), "Predicting 5G Throughput with BAMMO, a Boosted Additive Model for data with Missing Observations," *Journal of the Royal Statistical Society, Series C*, *74*(1), 249-273, DOI: [10.1093/jrsssc/qlae054](https://doi.org/10.1093/jrsssc/qlae054).
-- **Jacobson, T.** and Zou, H. (2023), “High-Dimensional Censored Regression via the Penalized Tobit Likelihood,” *Journal of Business and Economic Statistics*, *42*(1), 286-297, DOI: [10.1080/07350015.2023.2182309](https://doi.org/10.1080/07350015.2023.2182309)
-- Anderson, L. and **Jacobson, T.** (2023), “Providing the choice of in-person or video-conference attendance in a Clinical Physiology course may harm learning outcomes for the entire cohort,” *Advances in Physiology Education*, DOI: [10.1152/advan.00160.2022](https://doi.org/10.1152/advan.00160.2022)
-- **Jacobson, T.** & Zou, H. (2021), “Do Predictor Envelopes Really Reduce Dimension?” *Journal of Data Science*, *4*, 528-541. DOI: [10.6339/21-JDS1017](https://doi.org/10.6339/21-JDS1017)
+- **Jacobson, T.** & Kwon, O. (2026), “Envelope-Guided Regularization for Improved Prediction in High Dimensional Multivariate Regression,” *Journal of Multivariate Analysis*, 215, DOI: [10.1016/j.jmva.2026.105670](https://doi.org/10.1016/j.jmva.2026.105670)
+- **Jacobson, T.** (2025), “Strong Oracle Guarantees for Partial Penalized Tests of High Dimensional Generalized Linear Models,” *Journal of the Royal Statistical Society, Series B*, 87(4), 1150-1170, DOI: [10.1093/jrsssb/qkaf010](https://doi.org/10.1093/jrsssb/qkaf010).
+- **Jacobson, T.**, Ding, J., & Zou, H. (2025), "Predicting 5G Throughput with BAMMO, a Boosted Additive Model for data with Missing Observations," *Journal of the Royal Statistical Society, Series C*, 74(1), 249-273, DOI: [10.1093/jrsssc/qlae054](https://doi.org/10.1093/jrsssc/qlae054).
+- **Jacobson, T.** & Zou, H. (2025), “Linear Hypothesis Testing for High Dimensional Tobit Models,” *Statistica Sinica*, 35, 2185-2204, DOI: [10.5705/ss.202023.0118](https://doi.org/10.5705/ss.202023.0118)
+- **Jacobson, T.** & Zou, H. (2024), “High-Dimensional Censored Regression via the Penalized Tobit Likelihood,” *Journal of Business and Economic Statistics*, 42(1), 286-297, DOI: [10.1080/07350015.2023.2182309](https://doi.org/10.1080/07350015.2023.2182309)
+- Anderson, L. & **Jacobson, T.** (2023), “Providing the choice of in-person or video-conference attendance in a Clinical Physiology course may harm learning outcomes for the entire cohort,” *Advances in Physiology Education*, DOI: [10.1152/advan.00160.2022](https://doi.org/10.1152/advan.00160.2022)
+- **Jacobson, T.** & Zou, H. (2021), “Do Predictor Envelopes Really Reduce Dimension?” *Journal of Data Science*, 4, 528-541. DOI: [10.6339/21-JDS1017](https://doi.org/10.6339/21-JDS1017)
 
 
 ### Preprints
 - **Jacobson, T.** (2025) “Nonparametric Envelopes for Flexible Response Reduction.” arXiv: [2509.07248](https://arxiv.org/abs/2509.07248)
-- **Jacobson, T.** and Kwon, O. (2025) “Envelope-Guided Regularization for Improved Prediction in High Dimensional Multivariate Regression.” arXiv: [2501.11791](https://arxiv.org/abs/2501.11791)
 
 ### Software  
-
 - Jacobson T. (2022). tobitnet: Penalized Tobit Regression. R package version 1.0.0, [https://github.com/TateJacobson/tobitnet](https://github.com/TateJacobson/tobitnet)
 - Jacobson T. (2023). TobitTest: Linear Hypothesis Testing for High Dimensional Tobit Models. R package version 1.0, [https://github.com/TateJacobson/TobitTest](https://github.com/TateJacobson/TobitTest)
